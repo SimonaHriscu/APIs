@@ -1,0 +1,16 @@
+{
+  "name": "dictionary-app",
+  "version": "1.0.0",
+  "description": "Create a program which uses the Oxford Dictionary API. The dictionary should give the definition of any given word.",
+  "main": "config.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "deploy": "chmod +x src/index.js && npm link",
+    "undeploy": "npm unlink"
+  },
+  "author": "Simona",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
