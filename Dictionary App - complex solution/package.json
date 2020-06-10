@@ -1,0 +1,24 @@
+{
+  "name": "oxford-simonahriscu",
+  "version": "1.0.0",
+  "description": "Create a program which uses the Oxford Dictionary API. The dictionary should give the definition of any given word.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "chmod +x src/index.js && npm link",
+    "undeploy": "npm unlink"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FBw-26/oxford-SimonaHriscu.git"
+  },
+  "author": "Simona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FBw-26/oxford-SimonaHriscu/issues"
+  },
+  "homepage": "https://github.com/FBw-26/oxford-SimonaHriscu#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
